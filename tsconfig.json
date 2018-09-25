@@ -16,6 +16,26 @@
     "lib": [
       "es2017",
       "dom"
-    ]
+    ],
+    "paths": {
+      "example-ng6-lib": [
+        "dist/example-ng6-lib"
+      ],
+      "example-ng6-lib/*": [
+        "dist/example-ng6-lib/*"
+      ],
+      "lib1": [
+        "dist/lib1"
+      ],
+      "lib1/*": [
+        "dist/lib1/*"
+      ],
+      "lib2": [
+        "dist/lib2"
+      ],
+      "lib2/*": [
+        "dist/lib2/*"
+      ]
+    }
   }
 }
