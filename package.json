@@ -5,8 +5,8 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "build-lib1": "ng build lib1",
-    "build-lib2": "ng build lib2",
+    "build-lib1": "cd projects/lib1 && ng build lib1",
+    "build-lib2": "cd projects/lib2 && ng build lib2",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
